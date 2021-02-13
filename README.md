@@ -4,6 +4,16 @@ All of the code found in this repo rely on the C# which may not be written in a 
 # Dependencies
 Restore  AWSSDK.Core &  AWSSDK.S3 packages from Nuget.
 
+```csharp
+   httpClient.DefaultRequestHeaders.Add("x-lotame-token", "<<your lotame token>>");
+   
+   httpClient.DefaultRequestHeaders.Add("x-lotame-access", "<<your lotame access key>>");
+   
+   var response = await httpClient.GetAsync
+                    ("2/firehose/updates?client_id=<<your client Id>>&include_latest=false");
+
+```
+
 x-lotame-token - You will token value from your loteme portal.
 
 x-lotame-access - You will token value from your loteme portal
