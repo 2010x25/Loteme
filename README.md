@@ -14,8 +14,8 @@ Restore  AWSSDK.Core &  AWSSDK.S3 packages from Nuget.
 
 ```
 
-x-lotame-token - You will token value from your loteme portal.
+x-lotame-token - Get token value from loteme admin portal.
 
-x-lotame-access - You will token value from your loteme portal
+x-lotame-access - Get access key from loteme admin portal
 
 client_id - Numeric identification number will be available on loteme portal or provided by loteme support team.
